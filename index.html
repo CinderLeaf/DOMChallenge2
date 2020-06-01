@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Challenges II</title>
+    
+</head>
+<body>
+    <!-- buttons -->
+    <div class="buttons"></div>
+        <h3><b>Button part</b></h3>
+        <button type="button" id="button1">Click Me!</button>
+        <button type="button" id="button2">Click Me!</button>
+        <p id="demo"></p>
+    </div><!-- End buttons -->
+    <br/>
+
+    <!--  dont-hover -->
+    <div class="dont-hover" onmouseover="myFunction()" >
+        <h3><b>Don't hover over me</b></h3>
+    </div><!-- End dont-hover -->
+    <br/><br/>
+
+    <!--  from -->
+    <div class="form"></div>
+        <h3><b>User Login Form</b></h3>
+        <form action="/process" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username">
+            <br/><br/>
+            <label for="password">Password:</label>
+            <input type="password" name="password">
+            <br/>
+            <input type="submit" name = "submit" value="Submit">
+        </form>
+    </div><!-- End from -->
+
+    <script src="myscripts.js"></script>
+</body>
+</html>
