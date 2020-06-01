@@ -7,8 +7,6 @@ document.getElementById('button2').onclick = function() {
 }
 
 //Don't hover over me
-//document.getElementById('dont-hover').mouseover= function() {
-    //alert('Hello world!');
 function myFunction() {    
     alert("Hey, I told you not to hover over me!");
 }
