@@ -9,11 +9,14 @@ body {
     text-align: center;
   }
   
-  p,
-  button{
+  p{
     font-family: verdana;
     font-size: 20px;
     margin-left: 50px;
+  }
+
+  .buttons{
+    margin: auto;
   }
 
   .dont-hover{
