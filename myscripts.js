@@ -14,3 +14,16 @@ function myFunction() {
 }
 
 //form, check user input
+//changes the 
+function passwordtest() {
+    document.getElementById('username').value;
+    const user = document.getElementById('username').value;
+    document.getElementById('password').value;
+    const pw = document.getElementById('password').value;
+    if(pw != 12345678) {
+        alert('Password Incorrect')
+    }
+    else {
+        document.getElementById('change').innerHTML = "Welcome " + user + "!";
+    }
+}
