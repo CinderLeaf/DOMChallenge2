@@ -15,10 +15,12 @@ body {
     margin-left: 50px;
   }
 
-  .buttons{
+  .center{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 200px;
+    border: 0px solid green; 
   }
 
   .dont-hover{
