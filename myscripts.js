@@ -25,3 +25,12 @@ function passwordtest() {
         document.getElementById('change').innerHTML = "Welcome " + user + "!";
     }
 }
+
+//bonus
+//calculates the volumn of the sphere
+function volumnCalc () {
+    let radius = document.getElementById('input').value;
+    let volumn = 0;
+    volumn = (4/3) * 3.14159265359 * (radius *radius * radius);
+    alert("Volumn = " + volumn);
+}
