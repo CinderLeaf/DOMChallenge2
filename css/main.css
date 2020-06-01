@@ -16,7 +16,10 @@ body {
   }
 
   .buttons{
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
   }
 
   .dont-hover{
